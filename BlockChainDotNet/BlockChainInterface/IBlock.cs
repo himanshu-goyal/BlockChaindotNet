@@ -6,24 +6,24 @@ namespace BlockChainDotNet.BlockChainInterface
 {
     public interface IBlock
     {
-        //business related data
+        //business related transaction data
         string itemPrice { get; set; }
         string itemId { get; set; }
         string itemName { get; set; }
         string transactionDate { get; set; }
         PaymentType paymentType { get; set; }
 
-        //block related key items
+        //block related key items called as blockheader
         int blockNumber { get; set; }
         DateTime createDate { get; set; }
-        string blockHash { get; set; }
+        string blockHash { get; }
         string previousBlockHash { get; set; }
+        IBlock NextBlock { get; set; }
 
-
-        //Methods that each class should implement.
+        //Methods that class should implement.
         string CalculateBlockHash(string previousBlockHash);
         void setBlockHash(IBlock parent);
-        IBlock NextBlock { get; set; }
+        
         bool isValidChain(string previousBlockHash, bool verbose);
     }
 }
