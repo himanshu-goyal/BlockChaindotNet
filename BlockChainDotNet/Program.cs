@@ -20,6 +20,7 @@ namespace BlockChainDotNet
 
             blockchain.verifyChain();
             Console.WriteLine();
+            Console.ReadLine();
         }
     }
 }

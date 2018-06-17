@@ -2,3 +2,12 @@ C:\git-personal\BlockChainDotNet\BlockChainDotNet\obj\Debug\netcoreapp2.0\BlockC
 C:\git-personal\BlockChainDotNet\BlockChainDotNet\obj\Debug\netcoreapp2.0\BlockChainDotNet.csproj.CoreCompileInputs.cache
 C:\git-personal\BlockChainDotNet\BlockChainDotNet\obj\Debug\netcoreapp2.0\BlockChainDotNet.AssemblyInfoInputs.cache
 C:\git-personal\BlockChainDotNet\BlockChainDotNet\obj\Debug\netcoreapp2.0\BlockChainDotNet.AssemblyInfo.cs
+C:\git-personal\BlockChainDotNet\BlockChainDotNet\bin\Debug\netcoreapp2.0\BlockChainDotNet.deps.json
+C:\git-personal\BlockChainDotNet\BlockChainDotNet\bin\Debug\netcoreapp2.0\BlockChainDotNet.runtimeconfig.json
+C:\git-personal\BlockChainDotNet\BlockChainDotNet\bin\Debug\netcoreapp2.0\BlockChainDotNet.runtimeconfig.dev.json
+C:\git-personal\BlockChainDotNet\BlockChainDotNet\bin\Debug\netcoreapp2.0\BlockChainDotNet.dll
+C:\git-personal\BlockChainDotNet\BlockChainDotNet\bin\Debug\netcoreapp2.0\BlockChainDotNet.pdb
+C:\git-personal\BlockChainDotNet\BlockChainDotNet\bin\Debug\netcoreapp2.0\Hashing.dll
+C:\git-personal\BlockChainDotNet\BlockChainDotNet\bin\Debug\netcoreapp2.0\Hashing.pdb
+C:\git-personal\BlockChainDotNet\BlockChainDotNet\obj\Debug\netcoreapp2.0\BlockChainDotNet.dll
+C:\git-personal\BlockChainDotNet\BlockChainDotNet\obj\Debug\netcoreapp2.0\BlockChainDotNet.pdb
