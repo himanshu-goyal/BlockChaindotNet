@@ -1,0 +1,6 @@
+C:\git-personal\BlockChainDotNet\Hashing\bin\Debug\Hashing.dll
+C:\git-personal\BlockChainDotNet\Hashing\bin\Debug\Hashing.pdb
+C:\git-personal\BlockChainDotNet\Hashing\obj\Debug\Hashing.csprojResolveAssemblyReference.cache
+C:\git-personal\BlockChainDotNet\Hashing\obj\Debug\Hashing.csproj.CoreCompileInputs.cache
+C:\git-personal\BlockChainDotNet\Hashing\obj\Debug\Hashing.dll
+C:\git-personal\BlockChainDotNet\Hashing\obj\Debug\Hashing.pdb

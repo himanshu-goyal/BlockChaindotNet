@@ -1,0 +1,4 @@
+C:\git-personal\BlockChainDotNet\BlockChainDotNet\obj\Debug\netcoreapp2.0\BlockChainDotNet.csprojResolveAssemblyReference.cache
+C:\git-personal\BlockChainDotNet\BlockChainDotNet\obj\Debug\netcoreapp2.0\BlockChainDotNet.csproj.CoreCompileInputs.cache
+C:\git-personal\BlockChainDotNet\BlockChainDotNet\obj\Debug\netcoreapp2.0\BlockChainDotNet.AssemblyInfoInputs.cache
+C:\git-personal\BlockChainDotNet\BlockChainDotNet\obj\Debug\netcoreapp2.0\BlockChainDotNet.AssemblyInfo.cs

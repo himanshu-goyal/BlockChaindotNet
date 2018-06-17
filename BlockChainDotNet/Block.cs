@@ -49,11 +49,60 @@ namespace BlockChainDotNet
 
         public void setBlockHash(IBlock parent)
         {
-            throw new NotImplementedException();
+            if (parent != null)
+            {
+                previousBlockHash = parent.blockHash;
+                parent.NextBlock = this;
+            }
+            else
+            {
+                // Previous block is the genesis block.
+                previousBlockHash = null;
+            }
+
+            blockHash = CalculateBlockHash(previousBlockHash);
         }
-        public bool isValidChain(string previousBlockHash, bool verbose)
+        public bool isValidChain(string preBlockHash, bool verbose)
         {
-            throw new NotImplementedException();
+            bool isValid = true;
+
+            // Is this a valid block and transaction
+            string newBlockHash = CalculateBlockHash(preBlockHash);
+            if (newBlockHash != blockHash)
+            {
+                isValid = false;
+            }
+            else
+            {
+                // Does the previous block hash match the latest previous block hash
+                isValid |= preBlockHash == previousBlockHash;
+            }
+
+            PrintVerificationMessage(verbose, isValid);
+
+            // Check the next block by passing in our newly calculated blockhash. This will be compared to the previous
+            // hash in the next block. They should match for the chain to be valid.
+            if (NextBlock != null)
+            {
+                return NextBlock.isValidChain(newBlockHash, verbose);
+            }
+
+            return isValid;
+        }
+
+        private void PrintVerificationMessage(bool verbose, bool isValid)
+        {
+            if (verbose)
+            {
+                if (!isValid)
+                {
+                    Console.WriteLine("Block Number " + blockNumber + " : FAILED VERIFICATION");
+                }
+                else
+                {
+                    Console.WriteLine("Block Number " + blockNumber + " : PASS VERIFICATION");
+                }
+            }
         }
 
     }

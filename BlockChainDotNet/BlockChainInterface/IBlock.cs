@@ -7,10 +7,10 @@ namespace BlockChainDotNet.BlockChainInterface
     public interface IBlock
     {
         //business related transaction data
-        string itemPrice { get; set; }
+        double itemPrice { get; set; }
         string itemId { get; set; }
         string itemName { get; set; }
-        string transactionDate { get; set; }
+        DateTime transactionDate { get; set; }
         PaymentType paymentType { get; set; }
 
         //block related key items called as blockheader
