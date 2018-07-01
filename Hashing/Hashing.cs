@@ -11,9 +11,16 @@ namespace Hashing
     {
         public static byte[] ComputeHashSha256(byte[] toBeHashed)
         {
-            using (var sha256 = SHA256.Create())
+            try
             {
-                return sha256.ComputeHash(toBeHashed);
+                using (var sha256 = SHA256.Create())
+                {
+                    return sha256.ComputeHash(toBeHashed);
+                }
+            }
+            catch(Exception ex)
+            {
+                throw ex;
             }
         }
     }
