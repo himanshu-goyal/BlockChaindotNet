@@ -4,3 +4,5 @@ C:\Blockchain\BlockChaindotNet\BlockChain.Entities\obj\Debug\BlockChain.Entities
 C:\Blockchain\BlockChaindotNet\BlockChain.Entities\obj\Debug\BlockChain.Entities.csproj.CoreCompileInputs.cache
 C:\Blockchain\BlockChaindotNet\BlockChain.Entities\obj\Debug\BlockChain.Entities.dll
 C:\Blockchain\BlockChaindotNet\BlockChain.Entities\obj\Debug\BlockChain.Entities.pdb
+C:\Blockchain\BlockChaindotNet\BlockChain.Entities\bin\Debug\BlockChain.Hashing.dll
+C:\Blockchain\BlockChaindotNet\BlockChain.Entities\bin\Debug\BlockChain.Hashing.pdb

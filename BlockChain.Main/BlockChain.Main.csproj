@@ -4,15 +4,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{97A6F410-138D-4601-AD14-198FD1977024}</ProjectGuid>
-    <OutputType>Library</OutputType>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>BlockChain.ServiceLayer</RootNamespace>
-    <AssemblyName>BlockChain.ServiceLayer</AssemblyName>
+    <ProjectGuid>{3191835B-669C-485A-A1F7-DE03A13A51FA}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>BlockChain.Main</RootNamespace>
+    <AssemblyName>BlockChain.Main</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -22,6 +23,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -40,14 +42,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BlockChain.cs" />
-    <Compile Include="Interface\IBlockChain.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BlockChain.Entities\BlockChain.Entities.csproj">
       <Project>{07fb1b04-bee1-4941-b6a5-5886ab904847}</Project>
       <Name>BlockChain.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BlockChain.Hashing\BlockChain.Hashing.csproj">
+      <Project>{04607044-6268-4bef-806d-3d408604f63b}</Project>
+      <Name>BlockChain.Hashing</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BlockChain.ServiceLayer\BlockChain.ServiceLayer.csproj">
+      <Project>{97a6f410-138d-4601-ad14-198fd1977024}</Project>
+      <Name>BlockChain.ServiceLayer</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

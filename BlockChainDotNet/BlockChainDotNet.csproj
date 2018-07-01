@@ -5,4 +5,10 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\BlockChain.Entities\BlockChain.Entities.csproj" />
+    <ProjectReference Include="..\BlockChain.Hashing\BlockChain.Hashing.csproj" />
+    <ProjectReference Include="..\BlockChain.ServiceLayer\BlockChain.ServiceLayer.csproj" />
+  </ItemGroup>
+
 </Project>

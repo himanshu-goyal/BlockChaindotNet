@@ -18,13 +18,30 @@ namespace BlockChain.Entities
         public DateTime transactionDate { get; set; }
         public TransactionType paymentType { get; set; }
 
-        //block related key items called as blockheader
         public int blockNumber { get; set; }
         public DateTime createDate { get; set; }
         public string blockHash { get; set; }
         public string previousBlockHash { get; set; }
 
         public IBlock NextBlock { get; set; }
+
+        public Block(double ItemPrice,
+         string ItemId,
+         string ItemName,
+         DateTime TransactionDate,
+         TransactionType PaymentType,
+         int BlockNumber,
+         IBlock Parent)
+        {
+            itemPrice = ItemPrice;
+            itemId = ItemId;
+            itemName = ItemName;
+            transactionDate = TransactionDate;
+            paymentType = PaymentType;
+            blockNumber = BlockNumber;
+            createDate = DateTime.Now;
+            setBlockHash(Parent);
+        }
 
         public string CalculateBlockHash(string previousBlockHash)
         {

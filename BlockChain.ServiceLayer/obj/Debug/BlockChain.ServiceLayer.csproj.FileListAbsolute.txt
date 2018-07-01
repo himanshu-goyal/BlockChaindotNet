@@ -1,0 +1,10 @@
+C:\Blockchain\BlockChaindotNet\BlockChain.ServiceLayer\bin\Debug\BlockChain.ServiceLayer.dll
+C:\Blockchain\BlockChaindotNet\BlockChain.ServiceLayer\bin\Debug\BlockChain.ServiceLayer.pdb
+C:\Blockchain\BlockChaindotNet\BlockChain.ServiceLayer\bin\Debug\BlockChain.Entities.dll
+C:\Blockchain\BlockChaindotNet\BlockChain.ServiceLayer\bin\Debug\BlockChain.Hashing.dll
+C:\Blockchain\BlockChaindotNet\BlockChain.ServiceLayer\bin\Debug\BlockChain.Entities.pdb
+C:\Blockchain\BlockChaindotNet\BlockChain.ServiceLayer\bin\Debug\BlockChain.Hashing.pdb
+C:\Blockchain\BlockChaindotNet\BlockChain.ServiceLayer\obj\Debug\BlockChain.ServiceLayer.csprojResolveAssemblyReference.cache
+C:\Blockchain\BlockChaindotNet\BlockChain.ServiceLayer\obj\Debug\BlockChain.ServiceLayer.csproj.CoreCompileInputs.cache
+C:\Blockchain\BlockChaindotNet\BlockChain.ServiceLayer\obj\Debug\BlockChain.ServiceLayer.dll
+C:\Blockchain\BlockChaindotNet\BlockChain.ServiceLayer\obj\Debug\BlockChain.ServiceLayer.pdb
