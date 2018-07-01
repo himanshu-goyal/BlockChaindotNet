@@ -688,11 +688,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\git-personal\\BlockChainDotNet\\BlockChainDotNet\\BlockChainDotNet.csproj",
+      "projectUniqueName": "C:\\Blockchain\\BlockChaindotNet\\BlockChainDotNet\\BlockChainDotNet.csproj",
       "projectName": "BlockChainDotNet",
-      "projectPath": "C:\\git-personal\\BlockChainDotNet\\BlockChainDotNet\\BlockChainDotNet.csproj",
+      "projectPath": "C:\\Blockchain\\BlockChaindotNet\\BlockChainDotNet\\BlockChainDotNet.csproj",
       "packagesPath": "C:\\Users\\himan\\.nuget\\packages\\",
-      "outputPath": "C:\\git-personal\\BlockChainDotNet\\BlockChainDotNet\\obj\\",
+      "outputPath": "C:\\Blockchain\\BlockChaindotNet\\BlockChainDotNet\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -711,8 +711,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\git-personal\\BlockChainDotNet\\Hashing\\Hashing.csproj": {
-              "projectPath": "C:\\git-personal\\BlockChainDotNet\\Hashing\\Hashing.csproj"
+            "C:\\Blockchain\\BlockChaindotNet\\Hashing\\Hashing.csproj": {
+              "projectPath": "C:\\Blockchain\\BlockChaindotNet\\Hashing\\Hashing.csproj"
             }
           }
         }
