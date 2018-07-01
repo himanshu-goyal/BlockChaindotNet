@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E805DA6B-EE7A-47F7-8D85-39F057D85999}</ProjectGuid>
+    <ProjectGuid>{04607044-6268-4BEF-806D-3D408604F63B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Blockchain.service</RootNamespace>
-    <AssemblyName>Blockchain.service</AssemblyName>
+    <RootNamespace>BlockChain.Hashing</RootNamespace>
+    <AssemblyName>BlockChain.Hashing</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -40,14 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Block.cs" />
+    <Compile Include="Hashing.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\BlockChain.Entities\BlockChain.Entities.csproj">
-      <Project>{07fb1b04-bee1-4941-b6a5-5886ab904847}</Project>
-      <Name>BlockChain.Entities</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

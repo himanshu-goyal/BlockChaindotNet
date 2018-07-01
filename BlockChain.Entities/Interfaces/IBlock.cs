@@ -7,10 +7,8 @@ using BlockChain.Entities.Enums;
 
 namespace BlockChain.Entities.Interfaces
 {
-    interface IBlock
+    public interface IBlock
     {
-
-        IBlock NextBlock { get; set; }
 
         //Methods that class should implement.
         string CalculateBlockHash(string previousBlockHash);

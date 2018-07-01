@@ -1,0 +1,6 @@
+C:\Blockchain\BlockChaindotNet\BlockChain.Entities\bin\Debug\BlockChain.Entities.dll
+C:\Blockchain\BlockChaindotNet\BlockChain.Entities\bin\Debug\BlockChain.Entities.pdb
+C:\Blockchain\BlockChaindotNet\BlockChain.Entities\obj\Debug\BlockChain.Entities.csprojResolveAssemblyReference.cache
+C:\Blockchain\BlockChaindotNet\BlockChain.Entities\obj\Debug\BlockChain.Entities.csproj.CoreCompileInputs.cache
+C:\Blockchain\BlockChaindotNet\BlockChain.Entities\obj\Debug\BlockChain.Entities.dll
+C:\Blockchain\BlockChaindotNet\BlockChain.Entities\obj\Debug\BlockChain.Entities.pdb

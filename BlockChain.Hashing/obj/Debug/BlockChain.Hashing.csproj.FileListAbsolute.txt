@@ -1,0 +1,6 @@
+C:\Blockchain\BlockChaindotNet\BlockChain.Hashing\bin\Debug\BlockChain.Hashing.dll
+C:\Blockchain\BlockChaindotNet\BlockChain.Hashing\bin\Debug\BlockChain.Hashing.pdb
+C:\Blockchain\BlockChaindotNet\BlockChain.Hashing\obj\Debug\BlockChain.Hashing.csprojResolveAssemblyReference.cache
+C:\Blockchain\BlockChaindotNet\BlockChain.Hashing\obj\Debug\BlockChain.Hashing.csproj.CoreCompileInputs.cache
+C:\Blockchain\BlockChaindotNet\BlockChain.Hashing\obj\Debug\BlockChain.Hashing.dll
+C:\Blockchain\BlockChaindotNet\BlockChain.Hashing\obj\Debug\BlockChain.Hashing.pdb

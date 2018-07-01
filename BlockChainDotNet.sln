@@ -5,7 +5,9 @@ VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlockChainDotNet", "BlockChainDotNet\BlockChainDotNet.csproj", "{DB0B4650-85F0-4ED7-AB5B-292D8E21A2D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hashing", "Hashing\Hashing.csproj", "{FDE2B48B-0AFF-430F-8429-815E01B8B3B5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlockChain.Entities", "BlockChain.Entities\BlockChain.Entities.csproj", "{07FB1B04-BEE1-4941-B6A5-5886AB904847}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlockChain.Hashing", "BlockChain.Hashing\BlockChain.Hashing.csproj", "{04607044-6268-4BEF-806D-3D408604F63B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +19,14 @@ Global
 		{DB0B4650-85F0-4ED7-AB5B-292D8E21A2D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB0B4650-85F0-4ED7-AB5B-292D8E21A2D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB0B4650-85F0-4ED7-AB5B-292D8E21A2D2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FDE2B48B-0AFF-430F-8429-815E01B8B3B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FDE2B48B-0AFF-430F-8429-815E01B8B3B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FDE2B48B-0AFF-430F-8429-815E01B8B3B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FDE2B48B-0AFF-430F-8429-815E01B8B3B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07FB1B04-BEE1-4941-B6A5-5886AB904847}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07FB1B04-BEE1-4941-B6A5-5886AB904847}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07FB1B04-BEE1-4941-B6A5-5886AB904847}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07FB1B04-BEE1-4941-B6A5-5886AB904847}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04607044-6268-4BEF-806D-3D408604F63B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04607044-6268-4BEF-806D-3D408604F63B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04607044-6268-4BEF-806D-3D408604F63B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04607044-6268-4BEF-806D-3D408604F63B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

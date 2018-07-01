@@ -40,11 +40,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Block.cs" />
     <Compile Include="Enums\TransactionType.cs" />
     <Compile Include="Interfaces\IBlock.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TransactionEntities.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\BlockChain.Hashing\BlockChain.Hashing.csproj">
+      <Project>{04607044-6268-4bef-806d-3d408604f63b}</Project>
+      <Name>BlockChain.Hashing</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
